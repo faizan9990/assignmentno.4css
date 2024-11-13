@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+.container {
+    width: 360px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.container h1 {
+    color: #1877f2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.container p {
+    color: #606770;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: #166fe5;
+}
+.forgot-password, .create-account, .create-page {
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+.create-account {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #42b72a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.create-page {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 15px;
+}
+.create-page a {
+    color: #1877f2;
+    text-decoration: none;
+}
